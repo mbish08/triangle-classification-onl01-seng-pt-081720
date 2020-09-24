@@ -9,7 +9,7 @@ class Triangle
     @side_2 = side_2
     @side_3 = side_3
     @@all << self 
-    @all.sort!
+    @@all.sort!
   end 
   
   def kind 
