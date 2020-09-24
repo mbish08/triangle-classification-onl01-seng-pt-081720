@@ -8,8 +8,8 @@ class Triangle
     @side_1 = side_1
     @side_2 = side_2
     @side_3 = side_3
-    @sides = [] 
-    @@all.sort!
+    @sides = [side_1, side_2, side_3] 
+    @sides.sort!
   end 
   
   def kind 
