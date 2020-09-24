@@ -2,14 +2,14 @@ class Triangle
   
   attr_accessor :side_1, :side_2, :side_3, :sides 
   
-  @sides = []
+  @@all = []
   
   def initialize(side_1, side_2, side_3)
     @side_1 = side_1
     @side_2 = side_2
     @side_3 = side_3
-    @sides << self 
-    @sides.sort!
+    @@all << self 
+    @all.sort!
   end 
   
   def kind 
